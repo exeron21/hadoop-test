@@ -16,13 +16,9 @@ public class WCMapper extends Mapper<LongWritable, Text, Text ,IntWritable> {
         IntWritable valueOut = new IntWritable();
         String[] arr = value.toString().split(" ");
         for (String s : arr) {
-             keyOut.set(s);
-             valueOut.set(1);
-             context.write(keyOut, valueOut);
+            keyOut.set(s);
+            valueOut.set(1);
+            context.write(keyOut, valueOut);
         }
-    }
-    @Test
-    void test1() {
-        System.out.println("hello");
     }
 }
