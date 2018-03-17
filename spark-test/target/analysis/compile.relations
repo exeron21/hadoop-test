@@ -1,0 +1,22 @@
+products:
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala$$anonfun$main$1.class
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala$$anonfun$main$2.class
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala$$anonfun$main$3.class
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala$$anonfun$main$4.class
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala$$anonfun$main$5.class
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala$.class
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> D:\IdeaProjects\spark-test1\module1\target\classes\FirstScala.class
+binary dependencies:
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> C:\bigdata\apache-maven-3.5.2\repository\org\apache\spark\spark-core_2.10\1.6.2\spark-core_2.10-1.6.2.jar
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> C:\bigdata\apache-maven-3.5.2\repository\org\scala-lang\scala-library\2.10.5\scala-library-2.10.5.jar
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> C:\bigdata\jdk1.8.0_131\jre\lib\rt.jar
+source dependencies:
+external dependencies:
+class names:
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala$
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala$$anonfun$main$1
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala$$anonfun$main$2
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala$$anonfun$main$3
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala$$anonfun$main$4
+   D:\IdeaProjects\spark-test1\module1\src\main\java\FirstScala.scala -> FirstScala$$anonfun$main$5
