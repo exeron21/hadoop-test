@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/hadoop-test.iml" filepath="$PROJECT_DIR$/hadoop-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce-test/mapreduce-test.iml" filepath="$PROJECT_DIR$/mapreduce-test/mapreduce-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-test/spark-test.iml" filepath="$PROJECT_DIR$/spark-test/spark-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-test/zookeeper-test.iml" filepath="$PROJECT_DIR$/zookeeper-test/zookeeper-test.iml" />
     </modules>
   </component>
 </project>

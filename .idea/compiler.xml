@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mapreduce-test" />
         <module name="spark-test" />
+        <module name="zookeeper-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="mapreduce-test" target="1.8" />
+      <module name="mapreduce-test" target="1.5" />
       <module name="spark-test" target="1.8" />
+      <module name="zookeeper-test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
