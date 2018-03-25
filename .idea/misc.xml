@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/mapreduce-test/pom.xml" />
         <option value="$PROJECT_DIR$/spark-test/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-test/pom.xml" />
+        <option value="$PROJECT_DIR$/hbase-test/pom.xml" />
       </list>
     </option>
   </component>

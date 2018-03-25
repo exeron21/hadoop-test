@@ -14,7 +14,7 @@ public class ZKTest {
     @Test
     public void ls() throws IOException, KeeperException, InterruptedException {
 
-        ZooKeeper zk = new ZooKeeper("slave1:2181", 5000, null);
+        ZooKeeper zk = new ZooKeeper("slave1:2181,slave2:2181,slave3:2181", 5000, null);
         List<String> children = zk.getChildren("/", null);
         for (String s : children) {
             System.out.println(s);
@@ -28,7 +28,7 @@ public class ZKTest {
 
     public void ls(String path) throws Exception {
         System.out.println(path);
-        ZooKeeper zk = new ZooKeeper("slave1:2181", 5000, null);
+        ZooKeeper zk = new ZooKeeper("slave1:2181,slave2:2181,slave3:2181", 5000, null);
         List<String> children = zk.getChildren(path, null);
         if (children == null || children.isEmpty()) {
             return;

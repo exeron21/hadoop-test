@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+    <!-- hbase文件存放路径 -->
+    <property>
+        <name>hbase.rootdir</name>
+        <value>hdfs://mycluster/hbase</value>
+    </property>
+    <!--  zk的地址 -->
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>slave1:2181,slave2:2181,slave3:2181</value>
+    </property>
+    <!--  hbase文 -->
+    <property>
+        <name>hbase.zookeeper.property.dataDir</name>
+        <value>/home/hdp/zookeeper</value>
+    </property>
+
+</configuration>

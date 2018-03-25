@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hbase-test" />
         <module name="mapreduce-test" />
         <module name="spark-test" />
         <module name="zookeeper-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="hbase-test" target="1.5" />
       <module name="mapreduce-test" target="1.5" />
       <module name="spark-test" target="1.8" />
       <module name="zookeeper-test" target="1.5" />
