@@ -1,11 +1,10 @@
 package win.bojack.bigdata.hbase_test.test;
 
-import jdk.nashorn.internal.codegen.Namespace;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.*;
 import org.apache.hadoop.hbase.client.*;
+import org.apache.hadoop.hbase.filter.*;
 import org.apache.hadoop.hbase.util.Bytes;
-import org.apache.hadoop.hbase.util.Counter;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -224,5 +223,114 @@ public class TestCURD {
         DecimalFormat format = new DecimalFormat();
         format.applyPattern("000000");
         return format.format(i);
+    }
+
+    @Test
+    public void testFilter () throws IOException {
+        Configuration conf = HBaseConfiguration.create();
+        Connection conn = ConnectionFactory.createConnection(conf);
+        TableName tname = TableName.valueOf("ns1:t1");
+        Scan scan = new Scan();
+        RowFilter rowFilter = new RowFilter(CompareFilter.CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("row000198")));
+        scan.setFilter(rowFilter);
+        Table t = conn.getTable(tname);
+        ResultScanner rs = t.getScanner(scan);
+        Iterator<Result> it = rs.iterator();
+        while(it.hasNext()) {
+            Result r = it.next();
+            System.out.println(Bytes.toString(r.getRow()));
+        }
+
+    }
+
+    @Test
+    public void testFamilyFilter () throws IOException {
+        Configuration conf = HBaseConfiguration.create();
+        Connection conn = ConnectionFactory.createConnection(conf);
+        TableName tname = TableName.valueOf("ns1:t7");
+        Scan scan = new Scan();
+        FamilyFilter rowFilter = new FamilyFilter(CompareFilter.CompareOp.LESS, new BinaryComparator(Bytes.toBytes("f2")));
+        scan.setFilter(rowFilter);
+        Table t = conn.getTable(tname);
+        ResultScanner rs = t.getScanner(scan);
+        Iterator<Result> it = rs.iterator();
+        while(it.hasNext()) {
+            Result r = it.next();
+            byte[] f1id = r.getValue(Bytes.toBytes("f1"), Bytes.toBytes("name"));
+            byte[] f2id = r.getValue(Bytes.toBytes("f2"), Bytes.toBytes("name"));
+            System.out.println(Bytes.toString(f1id)+"====" + Bytes.toString(f2id));
+        }
+
+    }
+
+    @Test
+    public void testColumnFilter () throws IOException {
+        Configuration conf = HBaseConfiguration.create();
+        Connection conn = ConnectionFactory.createConnection(conf);
+        TableName tname = TableName.valueOf("ns1:t7");
+        Scan scan = new Scan();
+        QualifierFilter rowFilter = new QualifierFilter(CompareFilter.CompareOp.EQUAL, new BinaryComparator(Bytes.toBytes("name")));
+        scan.setFilter(rowFilter);
+        Table t = conn.getTable(tname);
+        ResultScanner rs = t.getScanner(scan);
+        Iterator<Result> it = rs.iterator();
+        while(it.hasNext()) {
+            Result r = it.next();
+            byte[] f1id = r.getValue(Bytes.toBytes("f1"), Bytes.toBytes("id"));
+            byte[] f1name = r.getValue(Bytes.toBytes("f1"), Bytes.toBytes("name"));
+            byte[] f2id = r.getValue(Bytes.toBytes("f2"), Bytes.toBytes("id"));
+            byte[] f2name = r.getValue(Bytes.toBytes("f2"), Bytes.toBytes("name"));
+            System.out.println(Bytes.toString(f1id)+"====" + Bytes.toString(f2id));
+            System.out.println(Bytes.toString(f1name)+"====" + Bytes.toString(f2name));
+        }
+
+    }
+
+    @Test
+    public void testValueFilter () throws IOException {
+        Configuration conf = HBaseConfiguration.create();
+        Connection conn = ConnectionFactory.createConnection(conf);
+        TableName tname = TableName.valueOf("ns1:t7");
+        Scan scan = new Scan();
+        ValueFilter rowFilter = new ValueFilter(CompareFilter.CompareOp.EQUAL, new SubstringComparator("hel"));
+        scan.setFilter(rowFilter);
+        Table t = conn.getTable(tname);
+        ResultScanner rs = t.getScanner(scan);
+        Iterator<Result> it = rs.iterator();
+        while(it.hasNext()) {
+            Result r = it.next();
+            byte[] f1name = r.getValue(Bytes.toBytes("f1"), Bytes.toBytes("name"));
+            byte[] f2name = r.getValue(Bytes.toBytes("f2"), Bytes.toBytes("name"));
+            System.out.println(Bytes.toString(f1name)+" ==== " + Bytes.toString(f2name));
+        }
+
+    }
+
+    @Test
+    public void testDepFilter () throws IOException {
+        Configuration conf = HBaseConfiguration.create();
+        Connection conn = ConnectionFactory.createConnection(conf);
+        TableName tname = TableName.valueOf("ns1:t7");
+        Scan scan = new Scan();
+        DependentColumnFilter rowFilter = new DependentColumnFilter(Bytes.toBytes("f2"),
+        Bytes.toBytes("name"),
+        false,
+                CompareFilter.CompareOp.EQUAL,
+                new SubstringComparator("hel"));
+
+        scan.setFilter(rowFilter);
+        Table t = conn.getTable(tname);
+        ResultScanner rs = t.getScanner(scan);
+        Iterator<Result> it = rs.iterator();
+        while(it.hasNext()) {
+            Result r = it.next();
+            byte[] f1id = r.getValue(Bytes.toBytes("f1"), Bytes.toBytes("id"));
+            byte[] f1name = r.getValue(Bytes.toBytes("f1"), Bytes.toBytes("name"));
+            byte[] f2id = r.getValue(Bytes.toBytes("f2"), Bytes.toBytes("id"));
+            byte[] f2name = r.getValue(Bytes.toBytes("f2"), Bytes.toBytes("name"));
+            System.out.println(Bytes.toString(f1id)+"====" + Bytes.toString(f2id));
+            System.out.println(Bytes.toString(f1name)+"====" + Bytes.toString(f2name));
+        }
+        rs.close();
     }
 }
