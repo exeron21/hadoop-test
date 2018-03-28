@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="132a8f8f-a924-4a21-a88e-62c5db9ebdf4" name="Default" comment="hello github">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java" afterPath="$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mapreduce-test/target/" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="TestCURD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="312" column="53" lean-forward="false" selection-start-line="312" selection-start-column="53" selection-end-line="312" selection-end-column="53" />
+            <state relative-caret-position="128">
+              <caret line="195" column="16" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCURD.testDepFilter">
+  <component name="RunManager" selected="JUnit.TestCURD.testPageFilter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -313,13 +314,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestCURD.testFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCURD.testPageFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hbase-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="win.bojack.bigdata.hbase_test.test" />
       <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.hbase_test.test.TestCURD" />
-      <option name="METHOD_NAME" value="testFilter" />
+      <option name="METHOD_NAME" value="testPageFilter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -387,19 +388,19 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestCURD.testFilter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCURD.testFamilyFilter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCURD.testColumnFilter" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCURD.testValueFilter" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCURD.testDepFilter" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestCURD.testFamilyFilter" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCURD.testColumnFilter" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCURD.testValueFilter" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCURD.testDepFilter" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCURD.testPageFilter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestCURD.testDepFilter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCURD.testValueFilter" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCURD.testColumnFilter" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCURD.testFamilyFilter" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCURD.testFilter" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestCURD.testPageFilter" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCURD.testDepFilter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCURD.testValueFilter" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCURD.testColumnFilter" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCURD.testFamilyFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -506,16 +507,17 @@
       <option name="project" value="LOCAL" />
       <updated>1522250021562</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hello github">
+      <created>1522250251101</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1522250251101</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCURD_testDepFilter - 2018.03.28 at 22h 47m 20s.xml">
-      <configuration name="TestCURD.testDepFilter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCURD_testDepFilter - 2018.03.28 at 22h 48m 30s.xml">
-      <configuration name="TestCURD.testDepFilter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCURD_testDepFilter - 2018.03.28 at 22h 49m 14s.xml">
       <configuration name="TestCURD.testDepFilter" configurationId="JUnit" />
     </history-entry>
@@ -540,20 +542,26 @@
     <history-entry file="TestCURD_testDepFilter - 2018.03.28 at 22h 55m 32s.xml">
       <configuration name="TestCURD.testDepFilter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCURD_testPageFilter - 2018.03.28 at 23h 25m 27s.xml">
+      <configuration name="TestCURD.testPageFilter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCURD_testPageFilter - 2018.03.28 at 23h 25m 47s.xml">
+      <configuration name="TestCURD.testPageFilter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1372" height="732" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2673435" sideWeight="0.47579426" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673435" sideWeight="0.47579426" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3857868" sideWeight="0.14447807" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22995462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27241963" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4179357" sideWeight="0.8555219" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2927242" sideWeight="0.8555219" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524962" sideWeight="0.47674417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524962" sideWeight="0.47674417" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.5959302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22692889" sideWeight="0.5232558" order="2" side_tool="true" content_ui="tabs" />
@@ -893,14 +901,14 @@
         <state relative-caret-position="2091">
           <caret line="159" column="24" lean-forward="false" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
           <folding>
-            <element signature="e#3340#3341#0" expanded="true" />
-            <element signature="e#3366#3367#0" expanded="true" />
-            <element signature="e#3395#3396#0" expanded="true" />
-            <element signature="e#3416#3417#0" expanded="true" />
-            <element signature="e#4992#4993#0" expanded="true" />
-            <element signature="e#5026#5027#0" expanded="true" />
-            <element signature="e#5084#5085#0" expanded="true" />
-            <element signature="e#5116#5117#0" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="false" />
+            <element signature="e#3366#3367#0" expanded="false" />
+            <element signature="e#3395#3396#0" expanded="false" />
+            <element signature="e#3416#3417#0" expanded="false" />
+            <element signature="e#4992#4993#0" expanded="false" />
+            <element signature="e#5026#5027#0" expanded="false" />
+            <element signature="e#5084#5085#0" expanded="false" />
+            <element signature="e#5116#5117#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -949,8 +957,8 @@
         <state relative-caret-position="153">
           <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="false" />
+            <element signature="e#1626#1627#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -976,15 +984,15 @@
         <state relative-caret-position="34">
           <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="312" column="53" lean-forward="false" selection-start-line="312" selection-start-column="53" selection-end-line="312" selection-end-column="53" />
+        <state relative-caret-position="128">
+          <caret line="195" column="16" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
