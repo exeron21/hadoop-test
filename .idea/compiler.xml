@@ -13,7 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="hbase-test" target="1.5" />
+      <module name="hbase-test" target="1.8" />
       <module name="mapreduce-test" target="1.5" />
       <module name="spark-test" target="1.8" />
       <module name="zookeeper-test" target="1.5" />
