@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flume-test" />
         <module name="hbase-test" />
+        <module name="kafka-test" />
         <module name="mapreduce-test" />
+        <module name="mybatis-test" />
         <module name="spark-test" />
         <module name="zookeeper-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="flume-test" target="1.5" />
       <module name="hbase-test" target="1.8" />
+      <module name="kafka-test" target="1.8" />
       <module name="mapreduce-test" target="1.5" />
+      <module name="mybatis-test" target="1.5" />
       <module name="spark-test" target="1.8" />
       <module name="zookeeper-test" target="1.5" />
     </bytecodeTargetLevel>

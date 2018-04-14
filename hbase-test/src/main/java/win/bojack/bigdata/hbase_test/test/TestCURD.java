@@ -4,6 +4,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.*;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.filter.*;
+import org.apache.hadoop.hbase.regionserver.BloomType;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.junit.Test;
 
@@ -31,7 +32,7 @@ public class TestCURD {
 
         byte[] f1 = Bytes.toBytes("f1");
         byte[] id = Bytes.toBytes("id");
-        byte[] value = Bytes.toBytes("value1234");
+        byte[] value = Bytes.toBytes("value191923");
         put.addColumn(f1, id, value);
 
         table.put(put);
@@ -355,5 +356,21 @@ public class TestCURD {
             System.out.println(Bytes.toString(f1id)+" ==== " + Bytes.toString(f2id) + " ==== " +Bytes.toString(f1name)+" ==== " + Bytes.toString(f2name));
         }
         rs.close();
+    }
+
+
+    @Test
+    public void testBloomFilter () throws IOException {
+        Configuration conf = HBaseConfiguration.create();
+        Connection conn = ConnectionFactory.createConnection(conf);
+
+        Admin admin = conn.getAdmin();
+        TableName tn = TableName.valueOf("ns1:t10");
+        HTableDescriptor td1 = new HTableDescriptor(tn);
+        HColumnDescriptor col = new HColumnDescriptor("f1");
+        col.setBloomFilterType(BloomType.ROW);
+        td1.addFamily(col);
+        admin.createTable(td1);
+        System.out.println("over");
     }
 }

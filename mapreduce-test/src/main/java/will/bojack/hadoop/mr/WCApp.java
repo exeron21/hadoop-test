@@ -19,7 +19,7 @@ public class WCApp {
         if (args.length > 1) {
             FileSystem.get(conf).delete(new Path(args[1]), true);
         }
-        conf.set("fs.defaultFS","file:///");
+//        conf.set("fs.defaultFS","file:///");
         Job job = Job.getInstance(new Configuration());
         job.setJobName("WCApp");
         job.setJarByClass(WCApp.class);

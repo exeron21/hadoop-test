@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/spark-test/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-test/pom.xml" />
         <option value="$PROJECT_DIR$/hbase-test/pom.xml" />
+        <option value="$PROJECT_DIR$/flume-test/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-test/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-test/pom.xml" />
       </list>
     </option>
   </component>
