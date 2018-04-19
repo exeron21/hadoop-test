@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias type="win.bojack.bigdata.springmybatis_test.entity.Orders" alias="_Orders" />
+        <typeAlias type="win.bojack.bigdata.springmybatis_test.entity.Users" alias="_Users" />
+        <typeAlias type="win.bojack.bigdata.springmybatis_test.entity.Items" alias="_Items" />
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="UsersMapper.xml" />
+        <mapper resource="OrdersMapper.xml" />
+    </mappers>
+</configuration>

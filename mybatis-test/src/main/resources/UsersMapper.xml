@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="users">
+    <insert id="insert">
+        insert into users(name,age) values (#{name}, #{age})
+    </insert>
+    <update id="update">
+        update users set name=#{name}, age=#{age} where id = #{id}
+    </update>
+    <select id="selectOne" parameterType="int" resultMap="RM_Users">
+        select
+            u.id uid,
+            u.name uname,
+            u.age uage,
+            o.id oid,
+            o.orderno oorderno
+        from users u left join orders o on u.id=o.uid
+        where u.id = #{id}
+    </select>
+    <select id="selectAll" resultMap="RM_Users">
+        select
+            u.id uid,
+            u.name uname,
+            u.age uage,
+            o.id oid,
+            o.orderno oorderno
+        from users u left join orders o on u.id=o.uid
+    </select>
+    <select id="delete">
+        delete from users where id = #{id}
+    </select>
+
+    <resultMap id="RM_Users" type="_Users">
+        <id property="id" column="uid" />
+        <result property="name" column="uname" />
+        <result property="age" column="uage" />
+        <collection property="orders" ofType="_Orders">
+            <id property="id" column="oid" />
+            <result property="orderno" column="oorderno" />
+        </collection>
+
+    </resultMap>
+</mapper>

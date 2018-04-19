@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="orders">
+    <insert id="insert">
+        insert into orders(ordersno, uid) values (#{ordersNo}, #{user.id})
+    </insert>
+    <update id="update">
+    </update>
+    <select id="selectOne" parameterType="int" resultMap="RM_Order">
+        select  o.id oid,
+                o.orderno oorderno,
+                u.id uid,
+                u.name uname,
+                u.age uage,
+                i.id iid,
+                i.itemname iitemname
+        from orders o
+            left join users u
+            on o.uid=u.id
+            left join items i
+            on i.oid = o.id
+        where o.id = #{id}
+    </select>
+    <select id="selectAll" resultMap="RM_Order">
+        select  o.id oid,
+        o.orderno oorderno,
+        u.id uid,
+        u.name uname,
+        u.age uage,
+        i.id iid,
+        i.itemname iitemname
+        from orders o
+        left join users u
+        on o.uid=u.id
+        left join items i
+        on i.oid=o.id
+    </select>
+    <select id="delete">
+        delete from orders where id = #{id}
+    </select>
+
+    <resultMap id="RM_Order" type="win.bojack.bigdata.mybatis_test.entity.Orders">
+        <id property="id" column="oid" />
+        <result property="orderno" column="oorderno" />
+        <association property="user" javaType="win.bojack.bigdata.mybatis_test.entity.Users">
+            <id property="id" column="uid" />
+            <result property="name" column="uname" />
+            <result property="age" column="uage" />
+        </association>
+        <collection property="items" ofType="_Items">
+            <id property="id" column="iid" />
+            <result property="itemname" column="iitemname" />
+        </collection>
+    </resultMap>
+</mapper>

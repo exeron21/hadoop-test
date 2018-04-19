@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/flume-test/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-test/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springmybatis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
       </list>
     </option>
   </component>

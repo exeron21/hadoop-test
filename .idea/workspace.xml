@@ -1,65 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvc:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="132a8f8f-a924-4a21-a88e-62c5db9ebdf4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_4_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_auth_1_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_configuration_1_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_core_1_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_sdk_1_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_10_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_10_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mina_mina_core_2_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20110124.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flume-test/flume-test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flume-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/kafka-test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/Constant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/ConsumerMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaConsumer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaProperties.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/TestProducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kafka-test/src/main/resources/setup.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapreduce-test/src/main/resources/hdfs-site.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/mybatis-test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/DAOTemplate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/MyBatisCallBack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/UserDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Items.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Orders.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Users.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/util/Util.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/OrdersMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/UsersMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/App.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestCURD.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestOrders.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/spring-test.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/App.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/dao/WelcomeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/src/main/resources/beans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/RegController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/reg.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/reg.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/selectAll.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/selectOne.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/BaseDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/impl/OrdersDaoImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Items.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Orders.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Users.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/BaseService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/UsersService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/BaseServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/UsersServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/OrdersMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/UsersMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/beans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/mybatis-conf.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/test/java/win/bojack/bigdata/springmybatis_test/Test/Test.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java" afterPath="$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java" />
-      <change beforePath="$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WCApp.java" afterPath="$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WCApp.java" />
-      <change beforePath="$PROJECT_DIR$/mapreduce-test/src/main/resources/core-site.xml" afterPath="$PROJECT_DIR$/mapreduce-test/src/main/resources/core-site.xml" />
-      <change beforePath="$PROJECT_DIR$/mapreduce-test/target/classes/core-site.xml" afterPath="$PROJECT_DIR$/mapreduce-test/target/classes/core-site.xml" />
-      <change beforePath="$PROJECT_DIR$/mapreduce-test/target/classes/will/bojack/hadoop/mr/WCApp.class" afterPath="$PROJECT_DIR$/mapreduce-test/target/classes/will/bojack/hadoop/mr/WCApp.class" />
-      <change beforePath="$PROJECT_DIR$/mapreduce-test/target/classes/will/bojack/hadoop/mr/WCMapper.class" afterPath="$PROJECT_DIR$/mapreduce-test/target/classes/will/bojack/hadoop/mr/WCMapper.class" />
-      <change beforePath="$PROJECT_DIR$/mapreduce-test/target/classes/will/bojack/hadoop/mr/WCReducer.class" afterPath="$PROJECT_DIR$/mapreduce-test/target/classes/will/bojack/hadoop/mr/WCReducer.class" />
+      <change beforePath="$PROJECT_DIR$/hadoop-test.iml" afterPath="$PROJECT_DIR$/hadoop-test.iml" />
+      <change beforePath="$PROJECT_DIR$/kafka-test/kafka-test.iml" afterPath="$PROJECT_DIR$/kafka-test/kafka-test.iml" />
+      <change beforePath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App1.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml" />
+      <change beforePath="$PROJECT_DIR$/spark-test/spark-test.iml" afterPath="$PROJECT_DIR$/spark-test/spark-test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mapreduce-test/target/" />
@@ -69,6 +76,9 @@
     <ignored path="$PROJECT_DIR$/flume-test/target/" />
     <ignored path="$PROJECT_DIR$/kafka-test/target/" />
     <ignored path="$PROJECT_DIR$/mybatis-test/target/" />
+    <ignored path="$PROJECT_DIR$/spring-test/target/" />
+    <ignored path="$PROJECT_DIR$/springmybatis-test/target/" />
+    <ignored path="$PROJECT_DIR$/springmvc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,102 +90,22 @@
     <favorites_list name="hadoop-test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KafkaConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="47" column="69" lean-forward="false" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-conf.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerConfig.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1-sources.jar!/kafka/consumer/ConsumerConfig.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/Constant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-test/src/main/resources/setup.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dataSouce</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -191,39 +121,72 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spark-test/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce-test/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WC1.java" />
-        <option value="$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WCReducer.java" />
-        <option value="$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WCMapper.java" />
-        <option value="$PROJECT_DIR$/zookeeper-test/pom.xml" />
-        <option value="$PROJECT_DIR$/zookeeper-test/src/main/java/win/bojack/bigdata/zookeepertest/ZKWatchTest.java" />
-        <option value="$PROJECT_DIR$/zookeeper-test/src/main/java/win/bojack/bigdata/zookeepertest/TestGithub.java" />
-        <option value="$PROJECT_DIR$/zookeeper-test/src/main/java/win/bojack/bigdata/zookeepertest/ZKTest.java" />
-        <option value="$PROJECT_DIR$/hbase-test/src/main/resources/hbase-site.xml" />
-        <option value="$PROJECT_DIR$/hbase-test/pom.xml" />
-        <option value="$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/MyRegionObserver.java" />
-        <option value="$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java" />
-        <option value="$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WCApp.java" />
-        <option value="$PROJECT_DIR$/mapreduce-test/src/main/resources/core-site.xml" />
-        <option value="$PROJECT_DIR$/flume-test/pom.xml" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/Test.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/TestProducer.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/Constants.java" />
-        <option value="$PROJECT_DIR$/kafka-test/pom.xml" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/TestConsumer.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/Main.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/kafkaConsumer.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/ConsumerMain.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/resources/setup.xml" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaConsumer.java" />
-        <option value="$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaProperties.java" />
-        <option value="$PROJECT_DIR$/mybatis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/TestCURD.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/resources/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/Test/TestCURD.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/test/java/TestCURD.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/Items.java" />
         <option value="$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml" />
-        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App.java" />
-        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App1.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/Users.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/Orders.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/resources/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestOrders.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Users.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/util/Util.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestCURD.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/MyBatisCallBack.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/DAOTemplate.java" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/main/resources/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/App.java" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/WelcomeService.java" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/main/java/WelcomeService.java" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/App.java" />
+        <option value="$PROJECT_DIR$/spring-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/service/WelcomeService.java" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/dao/WelcomeDao.java" />
+        <option value="$PROJECT_DIR$/spring-test/src/test/java/win/bojack/bigdata/springmybatis_test/Test.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Users.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/resources/mybatis-conf.xml" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/resources/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/OrdersDao.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/test/java/win/bojack/bigdata/springmybatis_test/Test/Test.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/impl/UsersDao.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/impl/UsersDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springmybatis-test/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/springmvc/web/reg.html" />
+        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/web/reg.jsp" />
+        <option value="$PROJECT_DIR$/springmvc/web/selectOne.jsp" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/User.java" />
+        <option value="$PROJECT_DIR$/springmvc/web/selectAll.jsp" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/RegController.java" />
       </list>
     </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="springmvc/invalid/Spring" />
+      <facet id="springmvc/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -235,12 +198,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kafka-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -268,8 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,25 +238,25 @@
             <path>
               <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -306,10 +264,17 @@
             <path>
               <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,16 +284,35 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.3678161" />
     <property name="SearchEverywhereHistoryKey" value="SinkRunn&#9;PSI&#9;JAVA://org.apache.flume.SinkRunner&#10;channelpro&#9;PSI&#9;JAVA://org.apache.flume.channel.ChannelProcessor&#10;netcatsou&#9;PSI&#9;JAVA://org.apache.flume.source.NetcatSource&#10;maptaskrunnable&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.LocalJobRunner.Job.MapTaskRunnable&#10;MapTask&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.MapTask" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="win.bojack.bigdata.springmybatis_test.Test" />
+      <recent name="win.bojack.bigdata.spring_test.service" />
+      <recent name="" />
+      <recent name="win.bojack.bigdata.mybatis_test.Test" />
+      <recent name="win.bojack.bigdata.mybatis_test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\hadoop-test\springmybatis-test\src\main\resources" />
+      <recent name="D:\IdeaProjects\hadoop-test\springmybatis-test\src\main\java\win\bojack\bigdata\springmybatis_test\entity" />
+      <recent name="D:\IdeaProjects\hadoop-test\mybatis-test\src\main\resources" />
       <recent name="D:\IdeaProjects\hadoop-test\mapreduce-test\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="win.bojack.bigdata.springmybatis_test.dao" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="win.bojack.bigdata.mybatis_test.dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App1">
+  <component name="RunManager" selected="Tomcat Server.springmvc">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -351,8 +335,21 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.mybatis_test.App1" />
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.spring_test.App" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-test" />
+      <envs />
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.mybatis_test.App" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -362,19 +359,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="mybatis-test" />
-      <envs />
-    </configuration>
-    <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.kafka.ConsumerMain" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kafka-test" />
       <envs />
     </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application">
@@ -403,13 +387,13 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="TestCURD.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hbase-test" />
+    <configuration name="TestCURD.testCURD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="win.bojack.bigdata.hbase_test.test" />
-      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.hbase_test.test.TestCURD" />
-      <option name="METHOD_NAME" value="put" />
+      <option name="PACKAGE_NAME" value="win.bojack.bigdata.mybatis_test" />
+      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.mybatis_test.TestCURD" />
+      <option name="METHOD_NAME" value="testCURD" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -422,13 +406,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestCURD.testBloomFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hbase-test" />
+    <configuration name="Test.testConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmybatis-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="win.bojack.bigdata.hbase_test.test" />
-      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.hbase_test.test.TestCURD" />
-      <option name="METHOD_NAME" value="testBloomFilter" />
+      <option name="PACKAGE_NAME" value="win.bojack.bigdata.springmybatis_test.Test" />
+      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.springmybatis_test.Test.Test" />
+      <option name="METHOD_NAME" value="testConn" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -441,13 +425,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestProducer.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kafka-test" />
+    <configuration name="Test.testUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmybatis-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="win.bojack.bigdata.kafka" />
-      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.kafka.TestProducer" />
-      <option name="METHOD_NAME" value="testSend" />
+      <option name="PACKAGE_NAME" value="win.bojack.bigdata.springmybatis_test.Test" />
+      <option name="MAIN_CLASS_NAME" value="win.bojack.bigdata.springmybatis_test.Test.Test" />
+      <option name="METHOD_NAME" value="testUserService" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -486,30 +470,110 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+    <configuration name="springmvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="springmvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hadoop-test" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49765" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCURD.testBloomFilter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCURD.put" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestProducer.testSend" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConsumerMain" />
-      <item index="5" class="java.lang.String" itemvalue="Application.App1" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.springmvc" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCURD.testCURD" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Test.testConn" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.Test.testUserService" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ConsumerMain" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProducer.testSend" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCURD.testBloomFilter" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCURD.put" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test.testUserService" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test.testConn" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCURD.testCURD" />
       </list>
     </recent_temporary>
   </component>
@@ -520,6 +584,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringBeansView">
+    <option name="showDoc" value="false" />
   </component>
   <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration>C:\Users\will\AppData\Roaming\Subversion</configuration>
@@ -637,64 +704,85 @@
       <option name="project" value="LOCAL" />
       <updated>1522500059126</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="hello github">
+      <created>1523721871603</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523721871603</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCURD_put - 2018.04.01 at 17h 10m 42s.xml">
-      <configuration name="TestCURD.put" configurationId="JUnit" />
+    <history-entry file="Test_testConn - 2018.04.16 at 22h 13m 44s.xml">
+      <configuration name="Test.testConn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCURD_put - 2018.04.01 at 17h 14m 25s.xml">
-      <configuration name="TestCURD.put" configurationId="JUnit" />
+    <history-entry file="Test_testConn - 2018.04.16 at 22h 17m 07s.xml">
+      <configuration name="Test.testConn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCURD_scan - 2018.04.01 at 16h 26m 22s.xml">
-      <configuration name="TestCURD.scan" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 27m 53s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCURD_scan - 2018.04.01 at 16h 29m 32s.xml">
-      <configuration name="TestCURD.scan" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 29m 44s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCURD_testBloomFilter - 2018.04.01 at 17h 20m 06s.xml">
-      <configuration name="TestCURD.testBloomFilter" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 30m 15s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProducer_testSend - 2018.04.13 at 21h 31m 03s.xml">
-      <configuration name="TestProducer.testSend" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 31m 53s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProducer_testSend - 2018.04.13 at 21h 32m 57s.xml">
-      <configuration name="TestProducer.testSend" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 32m 48s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProducer_testSend - 2018.04.13 at 22h 07m 02s.xml">
-      <configuration name="TestProducer.testSend" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 33m 09s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProducer_testSend - 2018.04.13 at 22h 08m 00s.xml">
-      <configuration name="TestProducer.testSend" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 35m 20s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProducer_testSend - 2018.04.13 at 22h 42m 53s.xml">
-      <configuration name="TestProducer.testSend" configurationId="JUnit" />
+    <history-entry file="Test_testUserService - 2018.04.16 at 23h 36m 30s.xml">
+      <configuration name="Test.testUserService" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1372" height="732" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2673435" sideWeight="0.47579426" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34582624" sideWeight="0.6242424" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3857868" sideWeight="0.14447807" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14220877" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36548224" sideWeight="0.8555219" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27241963" sideWeight="0.48789713" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.4939394" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34582624" sideWeight="0.37575758" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5810606" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12575758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31302875" sideWeight="0.8555219" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27086884" sideWeight="0.48181817" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8313458" sideWeight="0.82045454" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.47674417" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28744328" sideWeight="0.5959302" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.47674417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19818456" sideWeight="0.5959302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22692889" sideWeight="0.5232558" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41226575" sideWeight="0.7189394" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22692889" sideWeight="0.5232558" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -710,7 +798,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/App.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -719,382 +815,374 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zookeeper-test/src/main/java/win/bojack/bigdata/zookeepertest/ZKTest.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Orders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6.jar!/org/apache/hadoop/hbase/client/Result.class">
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="239" column="18" lean-forward="false" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
+        <state relative-caret-position="-85">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6.jar!/org/apache/hadoop/hbase/client/Put.class">
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="293" column="15" lean-forward="false" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
+        <state relative-caret-position="219">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/client/Mutation.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestCURD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="266" column="18" lean-forward="false" selection-start-line="266" selection-start-column="18" selection-end-line="266" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/client/Put.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="487" column="29" lean-forward="false" selection-start-line="487" selection-start-column="29" selection-end-line="487" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6-sources.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="159" column="24" lean-forward="false" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6-sources.jar!/org/apache/hadoop/hbase/util/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/client/ResultScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/jdk1.8.0_131/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/filter/ByteArrayComparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/filter/BinaryComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/filter/FamilyFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6-sources.jar!/org/apache/hadoop/hbase/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="212" column="9" lean-forward="false" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/hbase/hbase-client/1.2.6/hbase-client-1.2.6-sources.jar!/org/apache/hadoop/hbase/filter/DependentColumnFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-test/src/main/java/FirstScala.scala">
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/MyBatisCallBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/MyRegionObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="346" column="80" lean-forward="false" selection-start-line="346" selection-start-column="80" selection-end-line="346" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce-test/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-test/src/main/resources/hbase-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-test/src/main/resources/hdfs-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/flume/flume-ng-core/1.7.0/flume-ng-core-1.7.0.jar!/org/apache/flume/source/NetcatSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/flume/flume-ng-core/1.7.0/flume-ng-core-1.7.0-sources.jar!/org/apache/flume/source/NetcatSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="328" column="54" lean-forward="true" selection-start-line="328" selection-start-column="54" selection-end-line="328" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-test/src/main/java/win/bojack/bigdata/hbase_test/test/TestCURD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="173" column="16" lean-forward="false" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/flume/flume-ng-core/1.7.0/flume-ng-core-1.7.0-sources.jar!/org/apache/flume/channel/ChannelProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="262" column="12" lean-forward="false" selection-start-line="262" selection-start-column="12" selection-end-line="262" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/flume/flume-ng-core/1.7.0/flume-ng-core-1.7.0-sources.jar!/org/apache/flume/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/flume/flume-ng-core/1.7.0/flume-ng-core-1.7.0-sources.jar!/org/apache/flume/SinkRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="148" column="34" lean-forward="false" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/flume/flume-ng-core/1.7.0/flume-ng-core-1.7.0-sources.jar!/org/apache/flume/CounterGroup.java">
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/mybatis/mybatis/3.2.1/mybatis-3.2.1.jar!/org/apache/ibatis/session/SqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce-test/src/main/resources/hdfs-site.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/DAOTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/resources/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce-test/src/main/java/will/bojack/hadoop/mr/WCApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1.jar!/kafka/producer/ProducerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1-sources.jar!/kafka/producer/ProducerConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1.jar!/org/apache/kafka/clients/producer/ProducerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="81" lean-forward="true" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1-sources.jar!/org/apache/kafka/clients/CommonClientConfigs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1-sources.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/TestProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1322#1339#0" expanded="false" />
-            <element signature="e#1822#1830#0" expanded="false" />
-            <element signature="e#2149#2166#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/ConsumerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1-sources.jar!/kafka/consumer/ConsumerConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="69" lean-forward="false" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/src/main/resources/setup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/src/main/java/win/bojack/bigdata/kafka/KafkaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="207">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml">
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App1.java">
+    <entry file="jar://C:/bigdata/jdk1.8.0_131/jre/lib/rt.jar!/javax/annotation/Resource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/dao/WelcomeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/service/WelcomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/resources/mybatis-conf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/resources/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/resources/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/test/java/win/bojack/bigdata/springmybatis_test/Test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/impl/OrdersDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/bigdata/apache-maven-3.5.2/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="56" column="2" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/impl/UsersDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="111" lean-forward="false" selection-start-line="12" selection-start-column="111" selection-end-line="12" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/springmvc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/web/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/web/reg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/web/selectOne.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/RegController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1260#1266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/web/selectAll.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1105,10 +1193,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>springmvc:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20560747" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1116,11 +1206,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web (springmvc)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3678161" />
               </list>
             </option>
           </splitter-proportions>
@@ -1144,7 +1234,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3678161" />
               </list>
             </option>
           </splitter-proportions>
@@ -1152,12 +1242,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mapreduce-test</last-edited>
+          <last-edited>Spring|springmvc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.3678161" />
               </list>
             </option>
           </splitter-proportions>
@@ -1165,11 +1254,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.scala-lang:scala-library:2.10.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3678161" />
               </list>
             </option>
           </splitter-proportions>

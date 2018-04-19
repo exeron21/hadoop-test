@@ -12,6 +12,9 @@
         <module name="mapreduce-test" />
         <module name="mybatis-test" />
         <module name="spark-test" />
+        <module name="spring-test" />
+        <module name="springmvc" />
+        <module name="springmybatis-test" />
         <module name="zookeeper-test" />
       </profile>
     </annotationProcessing>
@@ -22,6 +25,9 @@
       <module name="mapreduce-test" target="1.5" />
       <module name="mybatis-test" target="1.5" />
       <module name="spark-test" target="1.8" />
+      <module name="spring-test" target="1.5" />
+      <module name="springmvc" target="1.8" />
+      <module name="springmybatis-test" target="1.5" />
       <module name="zookeeper-test" target="1.5" />
     </bytecodeTargetLevel>
   </component>

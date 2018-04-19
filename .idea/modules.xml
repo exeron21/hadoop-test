@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/mapreduce-test/mapreduce-test.iml" filepath="$PROJECT_DIR$/mapreduce-test/mapreduce-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-test/mybatis-test.iml" filepath="$PROJECT_DIR$/mybatis-test/mybatis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-test/spark-test.iml" filepath="$PROJECT_DIR$/spark-test/spark-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-test/spring-test.iml" filepath="$PROJECT_DIR$/spring-test/spring-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmybatis-test/springmybatis-test.iml" filepath="$PROJECT_DIR$/springmybatis-test/springmybatis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-test/zookeeper-test.iml" filepath="$PROJECT_DIR$/zookeeper-test/zookeeper-test.iml" />
     </modules>
   </component>
