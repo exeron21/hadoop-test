@@ -7,66 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="132a8f8f-a924-4a21-a88e-62c5db9ebdf4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/DAOTemplate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/MyBatisCallBack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/dao/UserDAO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Items.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Orders.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/entity/Users.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/util/Util.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/OrdersMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/UsersMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/App.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestCURD.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis-test/src/test/java/win/bojack/bigdata/mybatis_test/TestOrders.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/spring-test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/App.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/src/main/java/win/bojack/bigdata/spring_test/dao/WelcomeDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-test/src/main/resources/beans.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/RegController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/main/java/win/bojack/ssm_test/web/controller/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/reg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/reg.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/selectAll.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmvc/web/selectOne.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/BaseDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/dao/impl/OrdersDaoImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Items.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Orders.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/entity/Users.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/BaseService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/UsersService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/BaseServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/java/win/bojack/bigdata/springmybatis_test/service/impl/UsersServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/OrdersMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/UsersMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/beans.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/main/resources/mybatis-conf.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springmybatis-test/src/test/java/win/bojack/bigdata/springmybatis_test/Test/Test.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hadoop-test.iml" afterPath="$PROJECT_DIR$/hadoop-test.iml" />
-      <change beforePath="$PROJECT_DIR$/kafka-test/kafka-test.iml" afterPath="$PROJECT_DIR$/kafka-test/kafka-test.iml" />
-      <change beforePath="$PROJECT_DIR$/mybatis-test/src/main/java/win/bojack/bigdata/mybatis_test/App1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml" afterPath="$PROJECT_DIR$/mybatis-test/src/main/resources/mybatis-conf.xml" />
-      <change beforePath="$PROJECT_DIR$/spark-test/spark-test.iml" afterPath="$PROJECT_DIR$/spark-test/spark-test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mapreduce-test/target/" />
@@ -90,7 +32,7 @@
     <favorites_list name="hadoop-test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -228,6 +170,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,49 +181,12 @@
             <path>
               <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="springmybatis-test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -759,17 +665,17 @@
     <frame x="-4" y="-4" width="1372" height="732" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34582624" sideWeight="0.6242424" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34582624" sideWeight="0.62045455" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.4939394" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34582624" sideWeight="0.37575758" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31175467" sideWeight="0.14924243" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5810606" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12575758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31302875" sideWeight="0.8555219" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31175467" sideWeight="0.8507576" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27086884" sideWeight="0.48181817" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8313458" sideWeight="0.82045454" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.47674417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1689394" sideWeight="0.47674417" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19818456" sideWeight="0.5959302" order="1" side_tool="false" content_ui="tabs" />
@@ -1116,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,8 +1069,8 @@
         <state relative-caret-position="84">
           <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1260#1266#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1260#1266#0" expanded="false" />
           </folding>
         </state>
       </provider>
